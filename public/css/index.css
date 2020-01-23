@@ -1,0 +1,265 @@
+body {
+    margin-top : 5%;
+    margin-right : 10%;
+    margin-left : 10%
+}
+
+#DOM {
+    color : white;
+    background-color : rgb(43, 141, 233);
+    width : auto;
+    height: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 40px;
+    margin-bottom : 2%;   
+}
+
+#exos span{
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 16%;
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    color : rgb(34, 122, 204);
+}
+
+#exos span:hover{
+    background-color: rgb(43, 141, 233);
+    color : white;
+}
+
+/*DEBUT DES EXOS*/
+
+.none {
+    display: none;
+}
+
+#exo1{
+    background-color: rgb(180, 180, 180);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#exo1 h1{
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnExo1 {
+    border-style : none;
+    padding: 1%;
+    background-color: rgb(255, 187, 238);
+    border-radius: 10%
+}
+
+/*EXO 2*/
+
+#exo2{
+    background-color: rgb(180, 180, 180);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+/*EXO 3*/
+
+#exo3{
+    background-color: rgb(180, 180, 180);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#exo3 button {
+    border-style: none;
+    border-radius: 10%;
+    background-color: rgb(255, 187, 238);
+    color:white;
+}
+
+
+/*EXO 4*/
+
+#exo4{
+    background-color: rgb(180, 180, 180);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#bleu {
+    display: flex;
+    width: 250px;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: rgb(43, 141, 233);
+}
+
+#rouge {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin:auto;
+}
+
+#btnExo4{
+    text-align: center;
+
+}
+
+#btnExo4 button:first-child {
+    border-style: none;
+    margin-bottom: 2%;
+    margin-top : 2%;
+    background-color: rgb(228, 228, 30);
+    padding:1%;
+    border-radius: 10%;
+}
+
+
+#btnExo4 button:nth-child(3) {
+    border-style: none;
+    padding:1%;
+    background-color: rgb(255, 187, 238);
+    border-radius: 10%;
+}
+
+/* EXO 5 */
+
+#exo5{
+    background-color: rgb(180, 180, 180);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+} 
+
+#exo5 button {
+    border-style: dotted black;
+    background-color: rgb(255, 187, 238);
+    padding: 1%;
+    border-radius: 10%;
+}
+
+/*EXO 6*/
+
+#exo6{
+    background-color: rgb(180, 180, 180);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.calculatrice  {
+    background-color : rgb(3, 6, 34);
+     display: inline-block;
+     padding: 1%;
+     padding-bottom: 2%
+}
+
+#result {
+    color: white;
+    font-weight: bold;
+}
+
+.number {
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+}
+
+.sign {
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    background-color: rgb(37, 88, 228);
+    color: white;
+}
+
+#reset {
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    background-color : red;
+    color: white;
+}
+
+#egal {
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    background-color: rgb(18, 175, 18);
+    color: white;
+}
+
+/*EXO 7*/
+
+#exo7{
+    background-color: rgb(180, 180, 180);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div2 p {
+    flex: 1;
+    margin: 0;
+    padding-left : 10px;
+}
+
+.div2 [type=text] {
+    flex: 1;
+    margin: 0;
+    padding-left : 10px;
+}
+
+.div2 span {
+    cursor: pointer;
+}
+
+.div2 input {
+    cursor: pointer;
+}
+
+#allbtn-do {
+    text-align: center;
+    margin-top: 2%
+}
+.btn-do {
+    border-color: rgb(43, 141, 233);
+    border-radius: 10%;
+    background-color: rgb(180, 180, 180);
+    color: rgb(43, 141, 233);
+}
+
+.btn-do:hover{
+    color: white;
+    background-color: rgb(43, 141, 233);
+}
+

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="../public/css/index.css">
+</head>
+
+<body>
+    <div id="DOM">Javascript DOM </div>
+
+    <div id="exos">
+        <span>Exercice 1</span>
+        <span>Exercice 2</span>
+        <span>Exercice 3</span>
+        <span>Exercice 4</span>
+        <span>Exercice 5</span>
+        <span>Exercice 6</span>
+        <span>Exercice 7</span>
+    </div>
+    
+    <!-- DÉBUT DES EXOS -->
+
+    <!--EXO 1-->
+    <section id="exo1">
+        <h1>Titre</h1>
+        <p>list de propriété et de méthodes à retrouver dans la documentation</p>
+        <ul>
+            <li>innerText</li>
+            <li>innerHTML</li>
+            <li>querySelector()</li>
+            <li>querySelectorAll()</li>
+            <li>style</li>
+            <li>classList</li>
+        </ul>
+
+        <p>Changer le contenu du h2 par "le titre modifié"</p>
+        <p>Changer la couleur du h2 (couleur au choix)</p>
+        <p>Ajouter une class background bootstrap au h2</p>
+
+        <button id="btnExo1">Change</button>
+    </section>
+
+    <!--EXO 2-->
+
+    <section class="none" id="exo2">
+        <p>Mettre un écouteur d'événement sur les boutons nav et changer le panel en conséquence.</p>
+    </section>
+
+    <!--EXO 3-->
+
+    <section class="none" id="exo3">
+        <h2>Welcome <span>inconnu</span></h2>
+        <p>Écrivez dans l'input ci-dessus le nom de la personne que vous voulez acceuilir.</p>
+        <p>Lorsque vous cliquez sur le bouton "Go" le nom que vous avez ajoutez dans l'input sera alors mis dans le span
+            du h2 et l'input sera alors vidé de tout contenu. Attention, interdiction de toucher à l'HTML.</p>
+        <input type="text"> <button>GO</button>
+    </section>
+
+    <!--EXO 4-->
+
+    <section class="none" id="exo4">
+        <h2>Déplacer les éléments</h2>
+        <div class="row">
+            <div class="col">
+                <div id="bleu">
+                    <div id="rouge"></div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div id="bleu">
+                    <div id="rouge" class="none"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="btnExo4">
+            <button>Change de place</button><br>
+            <button>Nombre de click</button>
+        </div>
+    </section>
+
+
+    <!--EXO 5-->
+
+    <section class="none container" id="exo5">
+        <h2>Générer des éléments du DOM</h2>
+        <p>Cliquez sur le bouton ci-dessus pour générer des oeufs :</p>
+        <button>Ajouter un oeuf</button>
+        <div id="oeuf"></div>
+    </section>
+
+    <!--EXO 6-->
+
+    <section class="none" id="exo6">
+        <h2>Création Calculatrice</h2>
+        <h3>Niveau 1</h3>
+        <input id="rep1" type="text"> + <input id="rep2" type="text"> <button id="egal0">=</button> <span
+            id="response0">?</span>
+
+        <!--NIVEAU 2 CALCULATRICE-->
+
+        <h3>Niveau 2</h3>
+        <div class="calculatrice rounded">
+
+            <div id="result">0</div>
+
+            <input id="calcul" type="text" value="">
+
+            <hr class="bg-secondary">
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="sign">+</button>
+            <hr class="bg-secondary">
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="sign">-</button>
+            <hr class="bg-secondary">
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="sign">*</button>
+            <hr class="bg-secondary">
+            <button id="reset">C</button>
+    
+            <button class="number">0</button>
+            <button id="egal">=</button>
+            <button class="sign">/</button>
+        </div>
+
+    </section>
+
+    <!--EXO 7 TO DO LIST-->
+
+    <section class="none container" id="exo7">
+        <h2>To do list</h2>
+        <hr>
+        <input size=80 id="activite" type="text" placeholder="Que dois-je faire ?">
+        <div id="allbtn-do">
+            <button class="btn-do">Toutes</button>
+            <button class="btn-do">Completées</button>
+            <button class="btn-do">À faire</button>
+        </div>
+        <hr>
+        <div id="list"></div>
+    </section>
+
+
+
+    <!--BOOTSTRAP-->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script> -->
+    <!--JAVASCRIPT-->
+    <script type="module" src="../public/js/mains.js"></script>
+    
+
+</body>
+
+</html>
